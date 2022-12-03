@@ -7,7 +7,7 @@ import ForgotPassword from './components/ForgotPassword';
 import ResetPassword from './components/ResetPassword';
 
 function App() {
-  axios.defaults.baseURL = 'https://nm-mern-login.herokuapp.com/api/v1'
+  axios.defaults.baseURL = 'https://password-reset-mern.onrender.com/api/v1'
 	axios.defaults.headers = {
 		'Access-Control-Allow-Origin': '*',
 		'Content-Type': 'application/json',
